@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://utkarshh.dev/sitemap.xml
+
+# Block certain paths if needed
+# Disallow: /api/
+# Disallow: /admin/
