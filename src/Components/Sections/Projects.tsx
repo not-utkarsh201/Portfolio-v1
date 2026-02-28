@@ -38,6 +38,51 @@ const Projects: React.FC = () => {
       image: "/DealDrip.png",
     },
     {
+      title: "AI Job Preparation Platform",
+      description:
+        "A full-stack AI-powered platform for mock interviews, resume reviews, and technical question generation. Built with Next.js 15 and React 19, it features real-time LLM-driven interview simulations using Google AI SDK and Hume with streaming responses and structured output parsing for contextual feedback. The backend is powered by PostgreSQL and Drizzle ORM with Clerk authentication and Zod-based type-safe validation, ensuring scalability, security, and end-to-end type safety.",
+      technologies: [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "Clerk",
+        "Zod",
+        "Google AI SDK",
+        "Hume",
+      ],
+      github: "https://github.com/not-utkarsh201/ai-job-prep",
+      live: "https://hireprep.utkarshh.dev/",
+      image: "/AIJobPrep.png",
+    },
+    {
+      title: "Temporary Chat Room",
+      description:
+        "A real-time ephemeral chat application built with Next.js 16 and React 19, enabling users to create secure, nanoId-based unique chat rooms. It leverages Upstash Redis pub/sub for low-latency bidirectional messaging and in-memory storage to support concurrent users with minimal delay. Designed with an automated room lifecycle system using Redis TTL and scheduled cleanup logic, allowing chat rooms to self-destruct after 10 minutes for secure, temporary messaging.",
+      technologies: [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Elysia",
+        "Upstash Redis",
+        "nanoId",
+      ],
+      github: "https://github.com/not-utkarsh201/realtime-chat",
+      live: "https://tempchat.utkarshh.dev/",
+      image: "/TemporaryChatRoom.png",
+    },
+    {
+      title: "Sorting Visualizer",
+      description:
+        "An interactive web application that visualizes six sorting algorithms with real-time animations and complexity analysis. Includes user controls for speed adjustment, dataset customization, and algorithm selection to enhance learning and engagement.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/not-utkarsh201/sorting-visual",
+      live: "https://not-utkarsh201.github.io/sorting-visual/",
+      image: "/Sorting-Visualizer.png",
+    },
+    {
       title: "AI Mock Interview Platform",
       description:
         "An AI-powered job preparation platform where users can generate and take real-time interviews and receive instant feedback. Integrated Vapi AI for low-latency voice interaction and Google Gemini for generating detailed feedback on interview responses. Built with a responsive UI using Tailwind CSS and ShadCN, and used Firebase for secure authentication and data storage.",
@@ -55,28 +100,9 @@ const Projects: React.FC = () => {
       image: "/AI-Mock-Interview.png",
     },
     {
-      title: "Sorting Visualizer",
-      description:
-        "An interactive web application that visualizes six sorting algorithms with real-time animations and complexity analysis. Includes user controls for speed adjustment, dataset customization, and algorithm selection to enhance learning and engagement.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/not-utkarsh201/sorting-visual",
-      live: "https://not-utkarsh201.github.io/sorting-visual/",
-      image: "/Sorting-Visualizer.png",
-    },
-    {
       title: "Coming Soon",
       description: "Coming Soon",
       technologies: ["React", "Node.js", "MongoDB"],
-    },
-    {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      technologies: ["Next.js", "TypeScript", "Prisma"],
-    },
-    {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      technologies: ["React", "Express", "PostgreSQL"],
     },
   ];
 
