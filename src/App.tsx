@@ -13,6 +13,7 @@ import Blog from "./Pages/Blog";
 import { TooltipProvider } from "./Components/Ui/tooltip";
 import ErrorBoundary from "./Components/ErrorBoundary";
 import { trackPageView } from "./utils/analytics";
+import { Analytics } from "@vercel/analytics/react";
 const NotFound = lazy(() => import("./Pages/NotFound"));
 
 // Animation variants
@@ -110,6 +111,7 @@ const App = () => {
           </Layout>
         </Router>
       </TooltipProvider>
+      <Analytics />
     </ErrorBoundary>
   );
 };
