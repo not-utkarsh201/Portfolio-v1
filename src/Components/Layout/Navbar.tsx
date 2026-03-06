@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
     { name: "Blog", path: "/blog", icon: BlogIcon },
     {
       name: "Resume",
-      path: "https://drive.google.com/file/d/1HhdDjx-A50UIP22BaDu54AgIddIrSZKE/view?usp=sharing",
+      path: "https://drive.google.com/file/d/1bilIiUTbQ3ze4xMKLkiFgfwJLLfdD_rg/view?usp=sharing",
       icon: DownloadIcon,
     },
   ];
